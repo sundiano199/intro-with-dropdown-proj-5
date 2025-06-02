@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --almost-white: hsl(0, 0%, 98%);
+    --medium-gray: hsl(0, 0%, 41%);
+    --almost-black: hsl(0, 0%, 8%);
+
+}
+body{
+    font-family: "Epilogue", serif;
+    /* border: 2px solid red; */
+    max-width: 1540px;
+    margin: 0 auto;
+}
+/* nav */
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+    display: none;
+}
+/* container can be defined once and then give class name to whichever tag needs in the HTML */
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px 12px;
+    /* border: 1px solid red; */
+}
+/* main */
+/* section-1 */
+#desktop-hero{
+    display: none;
+}
+#section-1 img{
+    max-width: 100%;
+}
+h1{
+    font-weight: 700;
+    font-size: 2.2rem;
+    color: var(--almost-black);
+    padding: 20px 0;
+    text-align: center;
+}
+p{
+    color: var(--medium-gray);
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: 500;
+}
